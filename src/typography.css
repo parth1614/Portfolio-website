@@ -1,0 +1,15 @@
+.HomePage{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:80%;
+}
+
+.hero-text{
+text-align: center;
+}
+
+.hero-text span{
+    color:blueviolet;
+}
