@@ -11,4 +11,7 @@
     width: 84%;
     margin-left: 16%;
     min-height: 100vh;
+    background-image: url("./dots.svg");
+    display:grid;
+    position:relative;
 }
