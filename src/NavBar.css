@@ -52,19 +52,19 @@
     padding: 0.5rem 0;
     position: relative;
 }
- a::before{
+ .nav-item a::before{
     content: "";
     position: absolute;
     top:0;
     left:0;
     height:100%;
     width:0.4rem;
-     background-color: #26267b;
+     background-color: #0381ff33;
     transform-origin: bottom;
     transform: scale(0);
 
 }
-a:hover::before{
+.nav-item a:hover::before{
     width:100%;
     transform:scale(1);
 
