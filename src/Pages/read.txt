@@ -1,0 +1,1 @@
+The directory includes all the js pages for each of the pages linked through React routers
