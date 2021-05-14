@@ -17,8 +17,11 @@ text-align: center;
 }
 
 .h-sub-text{
-    text-align: center;
+    text-align: left;
     margin-top: 12px;
+    display:block;
+margin-left: 20px;
+
 }
 
 .icons {
