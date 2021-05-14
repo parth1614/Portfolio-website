@@ -1,1 +1,0 @@
-This Directory contains all the component pages connected together
