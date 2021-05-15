@@ -1,0 +1,2 @@
+
+The directory includes all the js and CSS files for the structure
