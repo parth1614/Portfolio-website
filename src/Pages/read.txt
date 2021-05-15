@@ -1,0 +1,1 @@
+This Directory contains all the pages' JS components files
