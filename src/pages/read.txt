@@ -1,1 +1,0 @@
-This directory contains the various pages of the web app
