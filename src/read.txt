@@ -1,1 +1,0 @@
-The directory contains the main component js and CSS files
