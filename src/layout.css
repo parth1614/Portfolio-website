@@ -1,0 +1,136 @@
+.sidebar{
+    width: 16%;
+    height: 100vh;
+    background-color: #191D2B;
+    position: fixed;
+    z-index: 11;
+    border-right: 1px solid #2e344e ;
+
+    transform-origin: left;
+
+}
+@media screen and (max-width:1000px){
+
+    .sidebar{
+        transition: all .4s ease-in-out;
+        transform: translateX(-100%);
+        width:30%;
+    }
+}
+
+@media screen and (max-width:411px){
+
+    .sidebar{
+        width:50%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+
+    .nav-toggle{
+        transition: all .4s ease-in-out;
+        transform: translateX(0);
+    }
+
+}
+
+.main-content{
+    background-color: #10121B;
+    width: 84%;
+    margin-left: 16%;
+    min-height: 100vh;
+    background-image: url("./dots.svg");
+    display:grid;
+    position:relative;
+}
+
+@media screen and (max-width:1000px){
+    .main-content{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}
+@media screen and (max-width:411px){
+    .main-content{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}
+
+.content{
+    margin:5rem 15rem;
+}
+
+@media screen and (max-width:1000px){
+    .content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:411px){
+    .content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}
+
+@media screen and (max-height:500px){
+    .content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}
+
+
+
+.nav-btn{
+    position: absolute;
+    z-index:10;
+    right:10%;
+    top:5%;
+    height:4rem;
+    width:4rem;
+    display: none;
+    align-items: center;
+    cursor:pointer;
+}
+
+.nav-btn .line-1, .line-2, .line-3{
+    height: .4rem;
+    width:100%;
+    background-color: #3858cc;
+    display:flex;
+    pointer-events: none;
+    border-radius:2rem;
+    justify-content:space-between;
+}
+
+.nav-btn .line-1, .line-2, .line-3:not(:last-child){
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width:1000px){
+    .nav-btn{
+        display: block;
+    }
+}
